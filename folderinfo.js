@@ -105,7 +105,7 @@ var objJSON = JSON.parse(resp.responseText);
 			tableau.connectionData=JSON.stringify(urlval);
 			tableau.username=username;
 			tableau.password=password;
-			//alert('value'+tableau.data);
+			
 			 tableau.submit();
 	}
 
